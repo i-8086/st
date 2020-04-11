@@ -11,6 +11,8 @@ scrollback-mouse
 scrollback-mouse-alt
 xresources
    desktopentry
+boxdraw
+
 
 Requirements
 ------------
