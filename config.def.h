@@ -9,6 +9,7 @@ static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
 	"Symbola:pixelsize 10:antialias=true",
+	"Droid Sans Mono for Powerline Nerd Font Complete:pixelsize=12:antialias=true:autohint=true"
 	"Inconsolata for Powerline:pixelsize=12:antialias=true:autohint=true",
 	"Hack Nerd Font Mono:pixelsize=11:antialias=true:autohint=true",
 };
@@ -23,7 +24,7 @@ static int borderpx = 5;
  * 4: value of shell in /etc/passwd
  * 5: value of shell in config.h
  */
-static char *shell = "/bin/sh";
+static char *shell = "/usr/bin/zsh";
 char *utmp = NULL;
 char *stty_args = "stty raw pass8 nl -echo -iexten -cstopb 38400";
 
